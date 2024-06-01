@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Header from "./components/Header";
 import Save from "./components/Save";
 import AppWork from "./components/appWork/AppWork";
-
+import VideoSection from "./components/VideoSection";
 const HomePage = () => {
   return (
     <div>
@@ -11,6 +11,7 @@ const HomePage = () => {
       <Header />
       <Save />
       <AppWork />
+      <VideoSection />
     </div>
   )
 }

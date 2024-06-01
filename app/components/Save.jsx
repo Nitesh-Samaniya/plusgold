@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import OldLady from "../../public/save/oldWomenShowingJewellery.png";
+import { FaArrowRight } from "react-icons/fa6";
 
 const Save = () => {
   return (
@@ -25,7 +26,7 @@ const Save = () => {
                 Buy Gold through daily, weekly or monthly SIPs, or through One-Time payments & get 10% extra Gold from Plus partner jewellers
             </p>
             <p>
-                <button className='text-red-500 mt-5'>Learn More</button>
+                <button className='text-red-500 mt-5 flex items-center gap-2'>Learn More <FaArrowRight /></button>
             </p>
         </div>
     </div>

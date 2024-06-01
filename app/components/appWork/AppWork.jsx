@@ -71,7 +71,7 @@ const AppWork = () => {
                     </div>
                 </div>
 
-                <div className='w-[65%] sm:w-[80%] lg:w-[85%] m-auto mt-10 grid grid-rows-4 sm:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-20 lg:gap-10'>
+                <div className='w-[65%] sm:w-[80%] lg:w-[85%] m-auto mt-10 grid grid-rows-4 sm:grid-rows-2 lg:grid-rows-1 grid-flow-col gap-5 lg:gap-10'>
                     {
                         appWorkCardsBox2?.map((el, index)=><AppWorkCardsBox2 key={index} img={el.img} title={el.title} title2={el.title2}/>)
                     }
