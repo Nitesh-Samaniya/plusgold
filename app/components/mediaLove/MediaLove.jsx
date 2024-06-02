@@ -86,15 +86,13 @@ const settings = {
 
 const MediaLove = () => {
     return (
-        <div className='mb-20'>
+        <div className='mb-20 mt-20'>
             <div className='text-center mb-10 sm:mb-5 text-5xl w-[90%] m-auto font-bold '>
                 The media loves Plus
             </div>
             <div className='text-center mb-20 text-xl w-[90%] m-auto tracking-wider'>
                 Top publications & news media talks about us
             </div>
-
-
 
             <div className="slider-container sm:w-[85%] lg:w-[70%] m-auto">
                 <Slider {...settings}>

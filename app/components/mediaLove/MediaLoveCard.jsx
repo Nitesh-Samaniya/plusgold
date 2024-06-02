@@ -4,6 +4,7 @@ import React from 'react'
 const MediaLoveCard = ({img1, img2, desc, link}) => {
     const truncatedDesc = desc.split(' ').slice(0, 10).join(' ');
     const displayDesc = desc.split(' ').length > 10 ? truncatedDesc + '...' : desc;
+
   return (
     <div>
         <div className='pt-3 pb-10 pr-3 pl-3 border border-orange-200 text-center bg-[#FAF8F1] w-[300px] rounded-3xl'>
