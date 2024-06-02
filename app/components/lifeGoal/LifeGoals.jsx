@@ -76,7 +76,7 @@ const LifeGoals = () => {
   return (
     <div>
       <div className='text-center mb-10 sm:mb-5 text-5xl w-[90%] m-auto font-bold'>Save for life goals</div>
-      <div className='text-center mb-20 text-xl w-[90%] m-auto font-semibold text-gray-500'>Save in Plus Gold for life events that matter</div>
+      <div className='text-center mb-20 text-xl w-[90%] m-auto font-semibold text-gray-500 tracking-wider'>Save in Plus Gold for life events that matter</div>
       <div className="slider-container sm:w-[85%] lg:w-[80%] m-auto">
         <Slider {...settings}>
           {

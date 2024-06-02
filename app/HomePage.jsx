@@ -6,6 +6,7 @@ import AppWork from "./components/appWork/AppWork";
 import VideoSection from "./components/VideoSection";
 import LifeGoals from "./components/lifeGoal/LifeGoals";
 import Companies from "./components/Companies";
+import MediaLove from "./components/mediaLove/MediaLove";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
       <VideoSection />
       <LifeGoals />
       <Companies />
+      <MediaLove />
     </div>
   )
 }
