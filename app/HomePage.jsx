@@ -8,6 +8,7 @@ import LifeGoals from "./components/lifeGoal/LifeGoals";
 import Companies from "./components/Companies";
 import MediaLove from "./components/mediaLove/MediaLove";
 import Download from "./components/Download";
+import Secure from "./components/Secure";
 
 const HomePage = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage = () => {
       <Companies />
       <MediaLove />
       <Download />
+      <Secure />
     </div>
   )
 }
