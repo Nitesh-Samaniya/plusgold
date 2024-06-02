@@ -5,6 +5,7 @@ import Save from "./components/Save";
 import AppWork from "./components/appWork/AppWork";
 import VideoSection from "./components/VideoSection";
 import LifeGoals from "./components/lifeGoal/LifeGoals";
+import Companies from "./components/Companies";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <AppWork />
       <VideoSection />
       <LifeGoals />
+      <Companies />
     </div>
   )
 }

@@ -58,7 +58,7 @@ const LifeGoals = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          centerPadding: "20px", // Added padding for small screens
+          centerPadding: "20px", 
           initialSlide: 2
         }
       },
@@ -67,7 +67,7 @@ const LifeGoals = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          centerPadding: "40px" // Added padding for very small screens
+          centerPadding: "40px" 
         }
       }
     ]
