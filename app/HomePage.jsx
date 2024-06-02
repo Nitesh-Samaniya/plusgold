@@ -4,6 +4,8 @@ import Header from "./components/Header";
 import Save from "./components/Save";
 import AppWork from "./components/appWork/AppWork";
 import VideoSection from "./components/VideoSection";
+import LifeGoals from "./components/lifeGoal/LifeGoals";
+
 const HomePage = () => {
   return (
     <div>
@@ -12,6 +14,7 @@ const HomePage = () => {
       <Save />
       <AppWork />
       <VideoSection />
+      <LifeGoals />
     </div>
   )
 }
