@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Plus Gold
 
-## Getting Started
+We help you to Pre-plan Your Jewellery Purchase With Plus. With Plus, enrol now in the 10+1 savings plan from trusted jewellers & redeem the savings to buy jewellery with upto 20% benefits.
 
-First, run the development server:
+## Live
+
+[Live Demo](https://plusgold.vercel.app/)
+
+## Video Demo
+
+[Video Demo](https://drive.google.com/file/d/1MBRVfJRsDUk9Lq58qQYWMQqhr0KqvkY9/view?usp=sharing)
+
+## Tech Stack
+
+**Next JS:** 
+<br/>
+**Tailwind:** 
+
+## Features
+
+- Fullscreen mode
+- Cross platform
+- Animation in Cards
+
+## Run Locally
+
+Clone the project
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/Nitesh-Samaniya/plusgold.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+  node version should be greater or equal to 18.17
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install dependencies
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+  npm install
+```
 
-## Learn More
+Start the server
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+  npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Interface](https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-06-03/Screenshot%202024-06-03%20191315_480116.png)
+<br />
+<br />
+![Interface](https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-06-03/Screenshot%202024-06-03%20191355_690610.png)
+<br />
+<br />
+![Interface](https://masai-course.s3.ap-south-1.amazonaws.com/editor/uploads/2024-06-03/Screenshot%202024-06-03%20191443_819344.png)
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Authors
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [@Nitesh-Samaniya](https://github.com/Nitesh-Samaniya)
