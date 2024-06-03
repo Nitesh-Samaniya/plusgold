@@ -10,6 +10,7 @@ import MediaLove from "./components/mediaLove/MediaLove";
 import Download from "./components/Download";
 import Secure from "./components/Secure";
 import Footer from "./components/footer/Footer";
+import Chart from "./components/Chart";
 
 const HomePage = () => {
   return (
@@ -20,6 +21,7 @@ const HomePage = () => {
       <AppWork />
       <VideoSection />
       <LifeGoals />
+      <Chart />
       <Companies />
       <MediaLove />
       <Download />
