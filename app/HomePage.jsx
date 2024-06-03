@@ -9,6 +9,7 @@ import Companies from "./components/Companies";
 import MediaLove from "./components/mediaLove/MediaLove";
 import Download from "./components/Download";
 import Secure from "./components/Secure";
+import Footer from "./components/footer/Footer";
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
       <MediaLove />
       <Download />
       <Secure />
+      <Footer />
     </div>
   )
 }

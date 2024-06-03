@@ -7,6 +7,8 @@ import wedding from "../../../public/lifeGoals/weddingMangalSutra.png";
 import LifeGoalCard from "./LifeGoalCard";
 import Slider from "react-slick";
 import Button from '../Button';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const lifeGoalsCards = [
   {

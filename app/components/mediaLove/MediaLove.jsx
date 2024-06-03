@@ -13,6 +13,8 @@ import vccCircleNews from "../../../public/media/vcCrircleNewsPic.png"
 import yourStoryLogo from "../../../public/media/yourStoryLogo.svg"
 import yourStoryNews from "../../../public/media/yourstoryNewsPic.png"
 import Slider from "react-slick";
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 const medisCardsData = [
     {
