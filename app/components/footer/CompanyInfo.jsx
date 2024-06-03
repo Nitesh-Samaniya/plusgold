@@ -2,6 +2,7 @@
 import Image from "next/image";
 import new_logo from "../../../public/footer/new_logo.svg";
 import { FaFacebookSquare, FaInstagram, FaTwitterSquare, FaLinkedin, FaYoutube } from "react-icons/fa";
+import Link from "next/link";
 
 const CompanyInfo = () => {
   return (
@@ -14,11 +15,11 @@ const CompanyInfo = () => {
                 <p>Email : founders@getplus.in | Phone : +91-9035202565</p>
             </div>
             <div className="flex gap-5">
-                <div><FaFacebookSquare size={25}/></div>
-                <div><FaInstagram size={25}/></div>
-                <div><FaTwitterSquare size={25}/></div>
-                <div><FaLinkedin size={25}/></div>
-                <div><FaYoutube size={25}/></div>
+                <Link href={'https://www.facebook.com/PlusGold.in'} target="_blank"><FaFacebookSquare size={25}/></Link>
+                <Link href={'https://www.instagram.com/plusgold.in/'} target="_blank"><FaInstagram size={25}/></Link>
+                <Link href={'https://x.com/i/flow/login?redirect_after_login=%2Fplusgoldin'} target="_blank"><FaTwitterSquare size={25}/></Link>
+                <Link href={'https://www.linkedin.com/company/plusgoldin/'} target="_blank"><FaLinkedin size={25}/></Link>
+                <Link href={'https://www.youtube.com/@Plus-App/featured'} target="_blank"><FaYoutube size={25}/></Link>
             </div>
         </div>
 

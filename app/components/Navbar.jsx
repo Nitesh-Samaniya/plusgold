@@ -20,7 +20,7 @@ const Navbar = () => {
         setDrawerOpen(!drawerOpen);
     };
     return (
-        <div className="fixed inset-0 z-50">
+        <div className="fixed top-0 left-0 w-full z-50">
             {isVisible && (
                 <div className="relative w-full flex justify-center items-start">
                     <Image src={sharkTank} alt="shark_tank" className="block" />

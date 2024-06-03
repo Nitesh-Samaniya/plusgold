@@ -4,6 +4,7 @@ import appStore from "../../public/download/appleStorePopUpLogo.png";
 import googlePlay from "../../public/download/googlePlayPopUpLogo.png";
 import appImg from "../../public/download/downloadTheAppImage.png";
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Download = () => {
   return (
@@ -14,8 +15,12 @@ const Download = () => {
                 Plus, a revolutionary app that helps Indian homemakers to pre-plan their jewellery purchase by saving monthly & gaining 10% IRR
             </div>
             <div className='flex gap-5 mt-5'>
-                <Image width={120} src={googlePlay} alt={googlePlay}/>
-                <Image width={120} src={appStore} alt={appStore}/>
+                <Link href='https://play.google.com/store/apps/details?id=com.fs.getplus' target='_blank'>
+                    <Image width={120} src={googlePlay} alt={googlePlay}/>
+                </Link>
+                <Link href='https://apps.apple.com/in/app/plus-gold-save-for-jewellery/id6443759619?platform=iphone' target='_blank'>
+                    <Image width={120} src={appStore} alt={appStore}/>
+                </Link>
             </div>
         </div>
 

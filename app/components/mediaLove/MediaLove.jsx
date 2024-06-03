@@ -57,6 +57,7 @@ const settings = {
     speed: 2000,
     autoplaySpeed: 3000,
     cssEase: "linear",
+    pauseOnHover: true,
     responsive: [
         {
             breakpoint: 1024,

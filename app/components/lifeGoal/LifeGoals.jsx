@@ -45,6 +45,7 @@ const LifeGoals = () => {
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
+    pauseOnHover: true,
     responsive: [
       {
         breakpoint: 1024,
