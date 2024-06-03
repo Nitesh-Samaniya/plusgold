@@ -11,8 +11,10 @@ import Download from "./components/Download";
 import Secure from "./components/Secure";
 import Footer from "./components/footer/Footer";
 import Chart from "./components/Chart";
+import PopUp from "./components/PopUp";
 
 const HomePage = () => {
+  
   return (
     <div>
       <Navbar />
@@ -27,6 +29,7 @@ const HomePage = () => {
       <Download />
       <Secure />
       <Footer />
+      <PopUp />
     </div>
   )
 }
