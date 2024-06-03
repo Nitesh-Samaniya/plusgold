@@ -26,7 +26,7 @@ const Save = () => {
                 Buy Gold through daily, weekly or monthly SIPs, or through One-Time payments & get 10% extra Gold from Plus partner jewellers
             </p>
             <p>
-                <button className='text-red-500 mt-5 flex items-center gap-2'>Learn More <FaArrowRight /></button>
+                <button className='ml-10 lg:ml-0 text-red-500 mt-5 flex items-center gap-2'><span>Learn More</span> <FaArrowRight /></button>
             </p>
         </div>
     </div>

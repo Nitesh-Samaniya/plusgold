@@ -90,7 +90,7 @@ const LifeGoals = () => {
           }
         </Slider>
       </div>
-      <div className='mt-10 mb-10'><Button text={'Start Saving Now'}/></div>
+      <div className='mt-10 mb-10 ml-[120px] sm:ml-0'><Button text={'Start Saving Now'}/></div>
     </div>
 
   )

@@ -14,8 +14,8 @@ const Download = () => {
                 Plus, a revolutionary app that helps Indian homemakers to pre-plan their jewellery purchase by saving monthly & gaining 10% IRR
             </div>
             <div className='flex gap-5 mt-5'>
-                <Image src={googlePlay} alt={googlePlay}/>
-                <Image src={appStore} alt={appStore}/>
+                <Image width={120} src={googlePlay} alt={googlePlay}/>
+                <Image width={120} src={appStore} alt={appStore}/>
             </div>
         </div>
 
